@@ -33,7 +33,7 @@ status-website:
   # Public page = Upptime's own static site (GitHub Pages, gh-pages branch), custom domain below.
   # Statuspage.io page deferred (decision 11.11.2026).
   cname: status.leaderanswers.com
-  baseUrl: /status-leaderanswers
+  baseUrl: /
   name: Leader Answers Status
   logoUrl: https://leaderanswers.com/favicon.svg
   favicon: https://leaderanswers.com/favicon-32.png
