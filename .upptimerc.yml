@@ -30,84 +30,82 @@ skipTopicsUpdate: true
 skipHomepageUpdate: true
 
 status-website:
-  # status.leaderanswers.com is served by repo Predivo-GmbH/status-site-leaderanswers (our own page, like status.claude.com).
-  # This Upptime page lives at predivo-gmbh.github.io/status-leaderanswers and forwards there.
+  # Public page = Upptime's own static site (GitHub Pages, gh-pages branch), custom domain below.
+  # Statuspage.io page deferred (decision 11.11.2026).
+  cname: status.leaderanswers.com
   baseUrl: /status-leaderanswers
-  customHeadHtml: '<meta http-equiv="refresh" content="0; url=https://status.leaderanswers.com"><link rel="canonical" href="https://status.leaderanswers.com">'
   name: Leader Answers Status
   logoUrl: https://leaderanswers.com/favicon.svg
   favicon: https://leaderanswers.com/favicon-32.png
   faviconSvg: https://leaderanswers.com/favicon.svg
   theme: light
   introTitle: "**Status of leaderanswers.com**"
-  introMessage: "Hier seht ihr live, ob leaderanswers.com und die Anmeldung erreichbar sind. Geprüft wird etwa alle fünf Minuten, von ausserhalb unserer eigenen Server. Störungen und geplante Wartungen erscheinen hier automatisch."
+  introMessage: "Live status of leaderanswers.com and its sign-in. Checked about every five minutes from outside our own servers. Incidents and planned maintenance appear here automatically."
   navbar:
     - title: Status
       href: /
     - title: leaderanswers.com
       href: https://leaderanswers.com
-    - title: Status page
-      href: https://status.leaderanswers.com
 
 i18n:
-  activeIncidents: Aktuelle Störungen
-  allSystemsOperational: Alle Systeme laufen normal
-  incidentReport: "Bericht zu Störung #$NUMBER →"
-  activeIncidentSummary: Eröffnet am $DATE, $POSTS Meldungen
-  incidentTitle: Störung $NUMBER im Detail
-  incidentDetails: Details zur Störung
-  incidentFixed: Behoben
-  incidentOngoing: Andauernd
-  incidentOpenedAt: Eröffnet am
-  incidentClosedAt: Geschlossen am
-  incidentViewOnGitHub: Auf GitHub ansehen und abonnieren
-  incidentCommentSummary: Veröffentlicht am $DATE von $AUTHOR
-  incidentBack: ← Zurück zu allen Störungen
-  pastIncidents: Frühere Störungen
-  pastIncidentsResolved: Behoben in $MINUTES Minuten, $POSTS Meldungen
-  liveStatus: Live-Status
-  overallUptime: "Verfügbarkeit gesamt: $UPTIME"
-  overallUptimeTitle: Verfügbarkeit gesamt
-  averageResponseTime: "Mittlere Antwortzeit: $TIMEms"
-  averageResponseTimeTitle: Mittlere Antwortzeit
-  sevelDayResponseTime: Antwortzeit der letzten 7 Tage
-  responseTimeMs: Antwortzeit (ms)
-  up: In Betrieb
-  down: Ausgefallen
-  degraded: Eingeschränkt
-  ms: ms
-  loading: Wird geladen
-  navGitHub: GitHub
-  footer: "Diese Seite ist [Open Source]($REPO) und läuft mit [Upptime](https://upptime.js.org). © Predivo GmbH, Leader Answers"
-  rateLimitExceededTitle: Zu viele Anfragen
-  rateLimitExceededIntro: Sie haben die Zahl der Anfragen pro Stunde erreicht. Bitte warten Sie etwas, bevor Sie die Seite erneut laden. Alternativ können Sie ein persönliches GitHub-Zugangstoken hinterlegen.
-  rateLimitExceededWhatDoesErrorMean: Was bedeutet dieser Fehler?
-  rateLimitExceededErrorMeaning: Diese Seite liest den Live-Status über die GitHub-API. GitHub erlaubt pro IP-Adresse 60 Anfragen pro Stunde, und diese sind aufgebraucht.
-  rateLimitExceededErrorHowCanFix: Wie lässt sich das beheben?
-  rateLimitExceededErrorFix: Nach einer Stunde ist das Limit Ihrer IP-Adresse wieder frei. Alternativ erhalten Sie mit einem persönlichen GitHub-Zugangstoken 5000 weitere Anfragen pro Stunde.
-  rateLimitExceededGeneratePAT: So erstellen Sie ein persönliches Zugangstoken
-  rateLimitExceededHasSet: Ein persönliches Zugangstoken ist hinterlegt.
-  rateLimitExceededRemoveToken: Token entfernen
-  rateLimitExceededGitHubPAT: Persönliches GitHub-Zugangstoken
-  rateLimitExceededCopyPastePAT: Token hier einfügen
-  rateLimitExceededSaveToken: Token speichern
-  errorTitle: Ein Fehler ist aufgetreten
-  errorIntro: Beim Abrufen des aktuellen Status ist ein Fehler aufgetreten.
-  errorText: Bitte versuchen Sie es in einigen Augenblicken erneut.
-  errorHome: Zur Startseite
-  pastScheduledMaintenance: Frühere geplante Wartungen
-  scheduledMaintenance: Geplante Wartung
-  scheduledMaintenanceSummaryStarted: Begonnen am $DATE für $DURATION Minuten
-  scheduledMaintenanceSummaryStarts: Beginnt am $DATE für $DURATION Minuten
-  startedAt: Begonnen am
-  startsAt: Beginnt am
-  duration: Dauer
-  durationMin: $DURATION Minuten
-  incidentCompleted: Abgeschlossen
-  incidentScheduled: Geplant
-  duration24H: 24 Std.
-  duration7D: 7 Tage
-  duration30D: 30 Tage
-  duration1Y: 1 Jahr
-  durationAll: alles
-  locale: de-CH
+  activeIncidents: "Active incidents"
+  allSystemsOperational: "All systems operational"
+  incidentReport: "Incident report #$NUMBER →"
+  activeIncidentSummary: "Opened at $DATE with $POSTS posts"
+  incidentTitle: "Incident $NUMBER details"
+  incidentDetails: "Incident details"
+  incidentFixed: "Fixed"
+  incidentOngoing: "Ongoing"
+  incidentOpenedAt: "Opened at"
+  incidentClosedAt: "Closed at"
+  incidentViewOnGitHub: "View and subscribe on GitHub"
+  incidentCommentSummary: "Posted at $DATE by $AUTHOR"
+  incidentBack: "← Back to all incidents"
+  pastIncidents: "Past incidents"
+  pastIncidentsResolved: "Fixed in $MINUTES minutes with $POSTS posts"
+  liveStatus: "Live status"
+  overallUptime: "Overall uptime: $UPTIME"
+  overallUptimeTitle: "Overall uptime"
+  averageResponseTime: "Average response time: $TIME ms"
+  averageResponseTimeTitle: "Average response time"
+  sevelDayResponseTime: "7-day response time"
+  responseTimeMs: "Response time (ms)"
+  up: "Up"
+  down: "Down"
+  degraded: "Degraded"
+  ms: "ms"
+  loading: "Loading"
+  navGitHub: "GitHub"
+  footer: "This page is [open source]($REPO) and runs on [Upptime](https://upptime.js.org). © Predivo GmbH, Leader Answers"
+  rateLimitExceededTitle: "Too many requests"
+  rateLimitExceededIntro: "You have reached the number of requests allowed per hour. Please wait a while before reloading, or add a personal GitHub access token."
+  rateLimitExceededWhatDoesErrorMean: "What does this error mean?"
+  rateLimitExceededErrorMeaning: "This page reads the live status through the GitHub API. GitHub allows 60 requests per hour per IP address, and they are used up."
+  rateLimitExceededErrorHowCanFix: "How can this be fixed?"
+  rateLimitExceededErrorFix: "After an hour your IP address limit is free again. Alternatively, a personal GitHub access token gives you 5000 more requests per hour."
+  rateLimitExceededGeneratePAT: "How to create a personal access token"
+  rateLimitExceededHasSet: "A personal access token is set."
+  rateLimitExceededRemoveToken: "Remove token"
+  rateLimitExceededGitHubPAT: "Personal GitHub access token"
+  rateLimitExceededCopyPastePAT: "Paste token here"
+  rateLimitExceededSaveToken: "Save token"
+  errorTitle: "An error occurred"
+  errorIntro: "There was an error fetching the current status."
+  errorText: "Please try again in a few moments."
+  errorHome: "Go to the home page"
+  pastScheduledMaintenance: "Past scheduled maintenance"
+  scheduledMaintenance: "Scheduled maintenance"
+  scheduledMaintenanceSummaryStarted: "Started at $DATE for $DURATION minutes"
+  scheduledMaintenanceSummaryStarts: "Starts at $DATE for $DURATION minutes"
+  startedAt: "Started at"
+  startsAt: "Starts at"
+  duration: "Duration"
+  durationMin: "$DURATION minutes"
+  incidentCompleted: "Completed"
+  incidentScheduled: "Scheduled"
+  duration24H: "24 hours"
+  duration7D: "7 days"
+  duration30D: "30 days"
+  duration1Y: "1 year"
+  durationAll: "all"
+  locale: "en-GB"
