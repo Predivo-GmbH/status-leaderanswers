@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Website",
+    "url": "https://leaderanswers.com/",
+    "icon": "https://leaderanswers.com/favicon-32.png",
+    "slug": "website",
+    "status": "down",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
+    "time": 562,
+    "timeDay": 562,
+    "timeWeek": 562,
+    "timeMonth": 562,
+    "timeYear": 562,
+    "dailyMinutesDown": {}
+  },
+  {
+    "name": "Sign-in",
+    "url": "https://jvitcryltsdhdxfgaggz.supabase.co/auth/v1/health",
+    "icon": "https://icons.duckduckgo.com/ip3/jvitcryltsdhdxfgaggz.supabase.co.ico",
+    "slug": "signin",
+    "status": "up",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
+    "time": 534,
+    "timeDay": 534,
+    "timeWeek": 534,
+    "timeMonth": 534,
+    "timeYear": 534,
+    "dailyMinutesDown": {}
+  }
+]
