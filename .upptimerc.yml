@@ -13,6 +13,13 @@ sites:
     maxResponseTime: 10000
     # a 200 from a host error or parking page is not our site
     __dangerous__body_down_if_text_missing: "Leader Answers"
+    # Kill switch (leaderanswers repo, D-063 / F-045, 11.11.2026): while the site shows its PLANNED placeholder (HTTP 503
+    # with Retry-After and noindex, until the rework is finished), 503 is an expected answer, so the placeholder is not
+    # reported as an outage. The body check above still needs our name, so a host's own 503 error page reads down.
+    # Remove 503 again when the site is back for good (scripts/maintenance.mjs off --target production).
+    expectedStatusCodes:
+      - 200
+      - 503
   # The page can load while nobody can sign in: ask the sign-in service of the PRODUCTION project
   # (Leader Answers production) with its PUBLIC key (what every visitor's browser receives), kept as a repo secret.
   # Plain GET only - never the sign-in-code endpoint (/auth/v1/otp), it is rate-limited.
