@@ -5,16 +5,16 @@
     "icon": "https://leaderanswers.com/favicon-32.png",
     "slug": "website",
     "status": "up",
-    "uptime": "84.50%",
-    "uptimeDay": "84.50%",
-    "uptimeWeek": "84.50%",
-    "uptimeMonth": "84.50%",
-    "uptimeYear": "84.50%",
-    "time": 731,
-    "timeDay": 731,
-    "timeWeek": 731,
-    "timeMonth": 731,
-    "timeYear": 731,
+    "uptime": "96.79%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "96.79%",
+    "uptimeMonth": "96.79%",
+    "uptimeYear": "96.79%",
+    "time": 761,
+    "timeDay": 880,
+    "timeWeek": 761,
+    "timeMonth": 761,
+    "timeYear": 761,
     "dailyMinutesDown": {
       "2026-11-11": 117
     }
@@ -30,11 +30,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 504,
-    "timeDay": 504,
-    "timeWeek": 504,
-    "timeMonth": 504,
-    "timeYear": 504,
+    "time": 545,
+    "timeDay": 666,
+    "timeWeek": 545,
+    "timeMonth": 545,
+    "timeYear": 545,
     "dailyMinutesDown": {}
   }
 ]
