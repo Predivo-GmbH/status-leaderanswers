@@ -4,19 +4,20 @@
     "url": "https://leaderanswers.com/",
     "icon": "https://leaderanswers.com/favicon-32.png",
     "slug": "website",
-    "status": "up",
-    "uptime": "96.79%",
+    "status": "down",
+    "uptime": "97.56%",
     "uptimeDay": "100.00%",
-    "uptimeWeek": "96.79%",
-    "uptimeMonth": "96.79%",
-    "uptimeYear": "96.79%",
+    "uptimeWeek": "97.56%",
+    "uptimeMonth": "97.56%",
+    "uptimeYear": "97.56%",
     "time": 761,
     "timeDay": 880,
     "timeWeek": 761,
     "timeMonth": 761,
     "timeYear": 761,
     "dailyMinutesDown": {
-      "2026-11-11": 117
+      "2026-11-11": 117,
+      "2026-11-14": 0
     }
   },
   {
