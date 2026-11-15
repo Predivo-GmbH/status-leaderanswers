@@ -4,20 +4,21 @@
     "url": "https://leaderanswers.com/",
     "icon": "https://leaderanswers.com/favicon-32.png",
     "slug": "website",
-    "status": "down",
-    "uptime": "97.89%",
-    "uptimeDay": "99.85%",
-    "uptimeWeek": "97.89%",
-    "uptimeMonth": "97.89%",
-    "uptimeYear": "97.89%",
-    "time": 737,
-    "timeDay": 679,
-    "timeWeek": 737,
-    "timeMonth": 737,
-    "timeYear": 737,
+    "status": "up",
+    "uptime": "97.72%",
+    "uptimeDay": "99.18%",
+    "uptimeWeek": "97.72%",
+    "uptimeMonth": "97.72%",
+    "uptimeYear": "97.72%",
+    "time": 716,
+    "timeDay": 641,
+    "timeWeek": 716,
+    "timeMonth": 716,
+    "timeYear": 716,
     "dailyMinutesDown": {
       "2026-11-11": 117,
-      "2026-11-14": 2
+      "2026-11-14": 2,
+      "2026-11-15": 10
     }
   },
   {
